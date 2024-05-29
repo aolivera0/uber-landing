@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animated-underline {
+    background: 
+      linear-gradient(to right, #d4d4d4, #d4d4d4),
+      linear-gradient(to right, #171717, #171717);
+    background-size: 100% 0.05em, 0 0.05em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  .animated-underline:hover,
+  .animated-underline:focus {
+    background-size: 0 0.05em, 100% 0.05em;
+  }
+}
+
 :root:has(.no-doc-scroll) {
   overflow:hidden;
 }
@@ -34,4 +51,10 @@ section.hide-element {
   to {
     opacity: 100%;
   }
+}
+
+
+
+img {
+  width: 100%;
 }

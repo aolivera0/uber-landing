@@ -60,9 +60,9 @@
     </section>
 
     <main class="bg-[#000] text-white">
-      <div class="max-w-6xl flex flex-col lg:flex-row lg:justify-center lg:items-center gap-9 lg:gap-44 py-10 px-6 lg:px-0 lg:py-16 lg:m-auto">
+      <div class="max-w-6xl flex flex-col lg:flex-row lg:justify-center lg:items-center gap-9 lg:gap-44 md:py-16 py-10 px-6 md:px-8 lg:px-0 lg:py-16 lg:m-auto">
         <div>
-          <h1 class="text-4xl lg:text-5xl font-bold mb-6 lg:mb-8 lg:leading-snug tracking-tighter">Go anywhere with <br> Uber</h1>
+          <h1 class="text-4xl md:text-[42px] lg:text-5xl font-bold mb-6 lg:mb-8 lg:leading-snug tracking-tighter md:tracking-normal">Go anywhere with <br class=" md:hidden lg:inline"> Uber</h1>
           <p class="pb-4">Request a ride, hop in, and go.</p>
           <form action="">
             <div class="flex flex-col gap-2 max-w-96">
@@ -101,33 +101,31 @@
     </main>
 
     <section class="">
-      <div class="max-w-6xl m-auto">
-        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-36 py-10 px-6 lg:py-16">        
+      <div class="max-w-6xl m-auto py-4">
+        <div class="flex flex-col-reverse lg:flex-row lg:justify-center items-center gap-10 lg:gap-36 py-10 px-6 md:px-8 lg:py-16 lg:px-0">        
           <img loading="lazy" src="images/driver-inside-car.webp" alt="">
           
-          <div class="flex flex-col max-w-md gap-4 lg:gap-8">
-            <h2 class="text-4xl lg:text-[3.2rem] font-bold leading-tight">Drive when you want, make what you need</h2>
+          <div class="flex flex-col lg:max-w-md gap-4 lg:gap-8">
+            <h2 class="text-[44px] lg:text-[3.2rem] font-bold leading-tight">Drive when you want, make what you need</h2>
             <p class="text-pretty">Make money on your schedule with deliveries or rides—or <br class="hidden lg:inline"> both. You can use your own car or choose a rental through Uber. </p>
 
-            <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6 mt-4">
+            <div class="flex flex-col md:flex-row md:items-center gap-4 lg:gap-6 mt-4">
               <a href="#" class="bg-black text-white font-medium py-3 px-6 rounded-lg hover:bg-neutral-800 transition-colors ease-in-out duration-300 w-fit">Get started</a>
-              <a href="#" class="underline underline-offset-8 decoration-neutral-300">Already have an account? Sign in</a>
-              <!-- TO DO: Animate underline -->
+              <a href="#" class="underline-offset-8 decoration-neutral-300 underline lg:une lg:animated-underline pb-1">Already have an account? Sign in</a>
             </div>
           </div>
         </div>
 
-        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-36 py-10 px-6 lg:py-16 ">       
+        <div class="flex flex-col-reverse lg:flex-row-reverse lg:justify-center items-center gap-10 lg:gap-36 py-10 px-6 md:px-8 lg:py-16 lg:px-0">        
           <img loading="lazy" src="images/outside-cars.webp" alt="">
       
-          <div class="flex flex-col max-w-md gap-4 lg:gap-8">
-            <h2 class="text-4xl lg:text-[3.2rem] font-bold leading-tight tracking-tighter text-neutral-800">The Uber you know, reimagined for business</h2>
+          <div class="flex flex-col md:max-w-xl gap-4 lg:gap-8 self-start">
+            <h2 class="text-[44px] lg:text-[3.2rem] font-bold leading-tight tracking-tighter text-neutral-800">The Uber you know, reimagined for business</h2>
             <p class="text-pretty text-neutral-700">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
           
-            <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6 mt-4">
+            <div class="flex flex-col md:flex-row md:items-center gap-4 lg:gap-6 mt-4">
               <a href="#" class="bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-neutral-800 transition-colors ease-in-out duration-300 w-fit">Get started</a>
-              <a href="#" class="underline underline-offset-8 decoration-neutral-300">Check out our solutions</a>
-              <!-- TO DO: Animate underline -->
+              <a href="#" class="underline-offset-8 decoration-neutral-300 underline lg:une lg:animated-underline pb-1">Check out our solutions</a>
             </div>
           </div>
         </div>
@@ -135,22 +133,22 @@
     </section>
 
   <section class="bg-zinc-100">
-    <div class="m-auto max-w-6xl py-8 lg:py-16 px-6">
+    <div class="m-auto max-w-6xl py-8 md:py-16 px-6 lg:px-0">
       <h2 class="text-3xl lg:text-[2.3rem] font-semibold mb-8">It’s easier in the apps</h2>
 
       <div class="w-full flex flex-col lg:flex-row gap-10 lg:gap-6 justify-between">
-        <a href="#" class="flex justify-center gap-3 lg:gap-6 bg-white p-4 lg:p-6 lg:pr-24 border-solid border-[1px] border-neutral-300 lg:border-none">
-            <img src="images/uber-box.svg" alt="" class="w-28 lg:hidden">
-            <img src="images/qr-uber.webp" alt="" class="hidden lg:block">
+        <a href="#" class="flex justify-center md:justify-start gap-3 lg:gap-6 bg-white p-4 lg:p-6 lg:pr-24 border-solid border-[1px] border-neutral-300 lg:border-none">
+            <img src="images/uber-box.svg" alt="" class="w-28 md:w-20 lg:hidden">
+            <img src="images/qr-uber.webp" alt="" class="hidden lg:block w-40 h-40">
             <div class="flex flex-col justify-center">
               <p class="text-2xl font-semibold tracking-tight">Downlaod the Uber app</p>
               <p class="hidden lg:inline">Scan to download</p>
             </div>
         </a>
 
-        <a href="#" class="flex justify-center gap-3 lg:gap-6 bg-white p-4 lg:p-6 lg:pr-24 border-solid border-[1px] border-neutral-300 lg:border-none">
-            <img src="images/uber-arrow.svg" alt="" class="w-28 lg:hidden">
-            <img src="images/qr-uber-next.webp" alt="" class="hidden lg:block">
+        <a href="#" class="flex justify-center md:justify-start gap-3 lg:gap-6 bg-white p-4 lg:p-6 lg:pr-24 border-solid border-[1px] border-neutral-300 lg:border-none">
+            <img src="images/uber-arrow.svg" alt="" class="w-28 md:w-20 lg:hidden">
+            <img src="images/qr-uber-next.webp" alt="" class="hidden lg:block w-40 h-40">
             <div class="flex flex-col justify-center">
               <p class="text-2xl font-semibold tracking-tight">Downlaod the Driver app</p>
               <p class="hidden lg:inline">Scan to download</p>
@@ -163,13 +161,13 @@
 
 
   <footer class="bg-[#000] text-white">
-    <div class="max-w-6xl m-auto py-14 px-6 lg:p-0">
+    <div class="max-w-6xl m-auto py-14 px-6 md:px-8 lg:px-0 md:py-20">
       <a href="#">
-        <img src="icons/uber.svg" alt="" class="mb-7">
+        <img src="icons/uber.svg" alt="" class="mb-7 w-12">
         <p class="pb-12 border-solid border-transparent border-b-[1px] w-fit hover:border-white">Visit Help Center</p>
       </a>
 
-      <div class="flex flex-col lg:flex-row justify-between gap-10 mt-8 *:flex-1 [&_a:hover]:text-neutral-400 [&_a]:transition-colors [&_a]:ease-in-out [&_a]:duration-300">
+      <div class="justify-between grid grid-cols-1 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 gap-10 mt-8  [&_a:hover]:text-neutral-400 [&_a]:transition-colors [&_a]:ease-in-out [&_a]:duration-300 md:max-w-xl">
         <ul class="text-sm flex flex-col gap-4">
           <li class="text-lg font-medium mb-0.5">Company</li>
           <li><a href="#">About us</a></li>
@@ -208,7 +206,7 @@
       </div>
 
       <div class="flex flex-col gap-14 lg:gap-0 lg:flex-row lg:justify-between lg:items-center pt-16">
-        <div class="-m-4 flex gap-4 lg:gap-16 *:p-4 *:w-12 [&_img:hover]:bg-neutral-800 *:rounded-lg [&_img:hover]:cursor-pointer [&_img]:transition-colors [&_img]:ease-in-out [&_img]:duration-300">
+        <div class="-m-4 flex gap-4 md:gap-16 *:p-4 *:w-12 [&_img:hover]:bg-neutral-800 *:rounded-lg [&_img:hover]:cursor-pointer [&_img]:transition-colors [&_img]:ease-in-out [&_img]:duration-300">
           <img src="icons/facebook.svg" alt="">
           <img src="icons/twitter.svg" alt="">
           <img src="icons/youtube.svg" alt="">
@@ -217,24 +215,24 @@
         </div>
 
         <div class="flex flex-col lg:flex-row text-sm font-medium">
-          <a href="#" class="flex items-center gap-2 hover:bg-zinc-800 lg:px-3 py-2 rounded-md transition-colors duration-300">  
-            <img src="icons/world.svg" alt="">
+          <a href="#" class="flex items-center gap-2 hover:bg-neutral-800 md:-ml-3 md:px-3 py-2 rounded-md transition-colors duration-300 w-fit">  
+            <img src="icons/world.svg" alt="" class="w-4">
             <p>English</p>
           </a>
 
-          <a href="#" class="flex items-center gap-2 hover:bg-zinc-800 lg:px-3 py-2 rounded-md transition-colors duration-300">
-            <img src="icons/location.svg" alt="">
+          <a href="#" class="flex items-center gap-2 hover:bg-neutral-800 md:-ml-3 md:px-3 py-2 rounded-md transition-colors duration-300 w-fit">
+            <img src="icons/location.svg" alt="" class="w-4">
             <p>Montreal</p>
           </a>
         </div>
       </div>
 
       <div class="flex gap-2 max-w-32 py-14 *:m-0 *:cursor-pointer">
-        <img src="icons/google-play.svg" alt="">
-        <img src="icons/app-store.svg" alt="">
+        <img src="icons/google-play.svg" alt="" class="w-44">
+        <img src="icons/app-store.svg" alt="" class="w-44">
       </div>
 
-      <div class="flex flex-col lg:flex-row gap-20 lg:gap-0 justify-between text-xs font-[200] text-neutral-100">
+      <div class="flex flex-col lg:flex-row gap-20 md:gap-12 lg:gap-0 justify-between text-xs font-[200] text-neutral-100">
         <p>© 2024 Uber Technologies Inc.</p>
         <ul class="flex gap-10">
           <li><a href="#">Privacy</a></li>
