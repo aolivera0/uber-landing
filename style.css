@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+:root:has(.no-doc-scroll) {
+  overflow:hidden;
+}
+
 body { 
   font-family: 'Uber Move Text', sans-serif;                                                
+}
+
+
+section.show-element {
+  animation: fade-in .2s forwards;
+  animation-timing-function: ease-out;
+}
+
+section.hide-element {
+  animation: fade-out .2s forwards;
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
