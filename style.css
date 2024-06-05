@@ -37,6 +37,27 @@ section.hide-element {
   animation: fade-out .2s forwards;
 }
 
+
+.slide-right  {
+  animation: slide-rigth .2s forwards ease-in;
+}
+
+.slide-left  {
+  animation: slide-left .2s forwards ease-out;
+}
+
+.slide-in {
+  animation: slide-in .15s forwards ease-in-out;
+}
+.slide-out {
+  animation: slide-out .15s forwards ease-out;
+}
+
+img {
+  width: 100%;
+}
+
+
 @keyframes fade-out {
   to {
     opacity: 0;
@@ -54,7 +75,36 @@ section.hide-element {
 }
 
 
+@keyframes slide-rigth {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
 
-img {
-  width: 100%;
+@keyframes slide-left {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(100%);
+  } to {
+    transform: translate(0%);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translate(0%);
+  } to {
+    transform: translateY(155%);
+  }
 }
