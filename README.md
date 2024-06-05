@@ -6,3 +6,5 @@ Tiene animaciones sutiles pero interesantes, como el hover en los links, el menu
 Completamente responsive.
 
 Link: https://uber-landing-clone.netlify.app/ 
+
+![oie_NkBeDOnLIHzJ](https://github.com/aolivera0/uber-landing/assets/112653145/eb93bd0c-d320-4d6e-8628-f986bd09ec77)
